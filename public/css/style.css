@@ -1067,7 +1067,7 @@ tbody {
   display: none;
 }
 .fixed-header-on .header .logo img {
-  max-height: 30px;
+  max-height: 50px;
 }
 .fixed-header-on .header.fixed-before .logo img {
   max-height: none;
