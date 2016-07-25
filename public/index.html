@@ -5,6 +5,23 @@
 	<!--<![endif]-->
 
 	<head>
+		<script type='text/javascript' charset='utf-8'>
+  window.liveSiteAsyncInit = function() {
+    LiveSite.init({
+      id : 'WI-4142HQXTDJ8S5W6IGW3E',
+      ui : false
+    });
+  };
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0],
+        p = (('https:' == d.location.protocol) ? 'https://' : 'http://'),
+        r = Math.floor(new Date().getTime() / 1000000);
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = p + "www.vcita.com/assets/livesite.js?" + r;
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'livesite-jssdk'));
+</script>
 		<meta charset="utf-8">
 		<title>The Rapacke Law Group</title>
 		<meta name="description" content="The Rapacke Law Group is a Full Service Fixed-Fee Intellectual Property Law Firm, passionate about providing the most meaningful intellectual property..">
@@ -1119,6 +1136,7 @@
 		<script type="text/javascript" src="js/template.js"></script>
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
+
 
 	</body>
 </html>
